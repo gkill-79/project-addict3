@@ -1,0 +1,306 @@
+/* 
+ 
+// src/frontAssets/css/Counter.css
+
+.main {
+    margin-top: 20px;
+}
+
+.counter-body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.counter-main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.compteur {
+    height: 33.333vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.compteur h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.compteur-container {
+    display: table;
+    margin-bottom: 20px;
+}
+
+.compteur p {
+    display: table-row;
+}
+
+.compteur span, .compteur label {
+    display: table-cell;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.compteur input {
+    width: 100%;  
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.compteur-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.compteur-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.item-compteur {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.compteur-container {
+    text-align: center;
+}
+
+.champs-input,
+.champs-input-jour {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.btn {
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+    color: black;
+}
+
+.counter-footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+.monBoutonReset {
+    width: 100%;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+}
+
+.somme-jour {
+    width: 20%;
+    margin: auto;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// src/frontAssets/css/Advice.css
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fafafa;
+}
+
+.main {
+    padding: 2rem;
+}
+
+.compteur {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.compteur h2 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.compteur-container,
+.compteur-actions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Modification pour centrer les éléments horizontalement */
+    margin-bottom: 1rem;
+}
+
+.compteur p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.compteur label {
+    flex: 1;
+    color: #666;
+}
+
+.compteur input {
+    width: 50%;
+    flex: 2;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.compteur-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.compteur-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.compteur-button,
+.compteur-button2 {
+    width: 30%;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.centered-label {
+    text-align: center;
+  }
+  
+  .centered-input {
+    margin: 0 auto;
+  }
+  
+  .centered-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  
+
+.compteur-button2 {
+    background-color: #007bff;
+}
+
+.compteur-button:hover,
+.compteur-button2:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.total {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+#dailySum {
+    width: 30%;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+

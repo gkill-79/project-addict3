@@ -1,0 +1,241 @@
+
+
+// style.css
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+
+header {
+    background-color: #dd8838;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Reste du fichier... */
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-container {
+    height: 50vh;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper-panneaux {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-wrapper-dessin {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .image-container img {
+    max-width: 60%;
+    max-height: 60%;
+    object-fit: cover;
+} */
+
+.dessin {
+    max-width: 40%;
+    max-height: 40%;
+    object-fit: cover;
+}
+
+.panneaux {
+    max-width: 120%;
+    max-height: 120%;
+    object-fit: cover;
+}
+
+/* .compteur {
+    height: 33.333vh;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.compteur {
+    height: 33.333vh;
+    width: 75%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.compteur h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.compteur-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.compteur p {
+    display: table-row;
+}
+
+.compteur input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.compteur span {
+    display: table-cell;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.compteur label {
+    display: table-cell;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.compteur-container {
+    display: table;
+    margin-bottom: 20px;
+}
+
+.compteur-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.menu-addictions {
+    height: 33.333vh;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-addictions {
+    height: 33.333vh;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.menu-addictions h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-addictions ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu-addictions li {
+    padding: 10px;
+    border: 1px solid palegreen;
+    border-radius: 5px;
+}
+
+.menu-addictions a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.messages {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 66.666vh;
+    position: relative;
+}
+
+.messages-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.message-box,
+.astuces-box {
+    width: 50%;
+    height: 100%;
+    border: 3px solid lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box-title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid lightgreen;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+
+
+

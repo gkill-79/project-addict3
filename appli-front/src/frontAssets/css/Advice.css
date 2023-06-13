@@ -1,0 +1,228 @@
+
+
+
+
+
+
+// src/frontAssets/css/Advice.css
+
+
+   /* body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: #dd8838;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid palegreen;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.image-container {
+    width: 75%;
+    height: auto;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 200px);
+}
+
+.message-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.quart-ecran {
+    flex-basis: 45%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .quart-ecran {
+        flex-basis: 100%;
+    }
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.advice-box {
+    flex: 1 1 200px;
+    max-width: 300px;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.advice-box h2 {
+    margin: 0 0 0.5rem;
+}
+
+.advice-box p {
+    margin: 0;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+// src/frontAssets/css/Advice.css
+
+
+ body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.page-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-section, .middle-section, .right-section {
+  width: 30%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.advice-input {
+  width: 100%;
+  max-width: 100%;  /* Limite la largeur du champ de texte */
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.buttons-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.add-button, .delete-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.add-button {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.right-section {
+  width: 30%;
+  padding: 1em;
+  box-sizing: border-box;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-box {
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: #f0f0f0;
+}
+
+.message-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.message-sender {
+  color: #007BFF;
+}
+
+.message-timestamp {
+  color: #6c757d;
+  font-size: 0.8em;
+}
+
+.message-content {
+  margin: 0;
+}
+

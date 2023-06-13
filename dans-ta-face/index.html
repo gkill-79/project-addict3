@@ -1,0 +1,126 @@
+
+
+// index.html
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lutte contre les addictions</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Lutte contre les addictions</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/compteur.html">Compteur</a></li>
+                <li><a href="/messages.html">Messages</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="image-container">
+            <div class="image-wrapper-dessin">
+                <img class="dessin" src="./assets/img/dessin.jpg" alt="Image dessin addiction">
+            </div>
+            <div class="image-wrapper-panneaux">
+                <img class="panneaux" src="./assets/img/panneaux.jpg" alt="Image panneaux addiction">
+            </div>
+        </section>
+        
+        <section class="compteur">
+            <h2>Compteur journalier</h2>
+                <div class="compteur-wrapper">
+                    <div class="compteur-container">
+                        <p>
+                            <label for="date-debut">Date de début d'arrêt:</label>
+                            <span><input type="date" id="date-debut" /></span>
+                        </p>
+                        <p>
+                            <label for="jours-arret">Nombre de jours d'arrêt:</label>
+                            <span><input type="number" id="jours-arret" readonly /></span>
+                        </p>
+                        <p>
+                            <label for="date-du-jour">Date du jour:</label>
+                            <span><input type="date" id="date-du-jour" readonly /></span>
+                        </p>
+                    </div>
+                    <div class="compteur-actions">
+                        <div>
+                            <button id="monBouton">Cliquez-moi</button>
+                        </div>
+                        <div>
+                            <p id="compteur">0</p>
+                        </div>
+                        <div>
+                            <button id="monBoutonReset">Réinitialiser</button>
+
+                        </div>
+                    </div>
+                </div>
+        </section>
+        
+
+        <nav class="menu-addictions">
+            <h2>Addictions</h2>
+            <ul>
+                <li><a href="#">Cigarette</a></li>
+                <li><a href="#">Alcool</a></li>
+                <li><a href="#">Drogues</a></li>
+            </ul>
+        </nav>
+
+        <section class="messages">
+            <h2 class="messages-title">Messages et astuces</h2>
+            <div class="message-box">
+                <div class="box-title">
+                    <h3>Messages</h3>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, eum! Adipisci quidem voluptates, in, necessitatibus modi eius accusamus blanditiis eum cum eligendi veniam voluptas odio ipsum vero, aspernatur nam esse sunt similique nemo repellat est ut atque magni omnis. Aliquid adipisci voluptas officia ex architecto aut nostrum ratione, in culpa delectus, reiciendis eligendi suscipit quibusdam ipsa consequuntur cupiditate, aliquam fugit dolor odit non voluptatem? Exercitationem odio libero porro dicta, delectus reiciendis, facilis eligendi accusamus, expedita nostrum illo quia sed sapiente assumenda officiis iure inventore aut repellat ipsam autem neque! Suscipit amet consequatur, harum tenetur cupiditate, voluptates accusantium commodi possimus illo iure voluptate sed minima ipsam dolorum molestias placeat. Dicta atque tempora dolore? Eius fugit alias commodi? Cumque, deserunt incidunt quasi nesciunt enim quo cupiditate architecto ratione quibusdam blanditiis saepe sunt eligendi et tenetur molestiae? Repellendus a error illum consequatur nisi ab facere consequuntur aperiam, nulla, voluptates quo vel itaque ut.</p>
+                </div>
+            </div>
+            <div class="astuces-box">
+                <div class="box-title">
+                    <h3>astuces</h3>
+                </div>
+                <div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex suscipit explicabo ducimus quasi et architecto pariatur consectetur officiis optio iusto nihil facere inventore asperiores aliquam voluptas, recusandae reiciendis quis neque modi libero ad labore numquam iste temporibus. Accusamus ex dolorum velit ab provident, magnam voluptatem repellat eligendi soluta in, corporis perferendis nostrum, culpa odio asperiores quam? Hic, quaerat. Enim laborum odit error explicabo, molestias quidem quam suscipit possimus reiciendis atque, ipsum rem. Iste, veritatis repellat. Fugiat iusto quod recusandae tempore, adipisci illum voluptas quia non inventore qui dolore nobis labore sunt enim eveniet at sapiente eos in consectetur placeat quasi.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Lutte contre les addictions. Tous droits réservés.</p>
+    </footer>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

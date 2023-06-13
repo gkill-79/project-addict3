@@ -1,0 +1,92 @@
+
+
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: #dd8838;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid palegreen;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.image-container {
+    width: 75%;
+    height: auto;
+    overflow: hidden; /* Pour masquer le contenu débordant */
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%; /* Pour éviter que l'image ne dépasse la hauteur de sa div conteneur */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 200px); /* On prend en compte la hauteur de l'en-tête et du pied de page */
+}
+
+.message-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.quart-ecran {
+    flex-basis: 45%; /* Pour qu'il y ait 2 boîtes par ligne */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .quart-ecran {
+        flex-basis: 100%; /* Sur les écrans plus petits, chaque boîte prendra toute la largeur */
+    }
+}

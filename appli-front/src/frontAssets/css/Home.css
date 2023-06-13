@@ -1,0 +1,555 @@
+/* combinedStyles.css */
+
+// src/frontAssets/css/Home.css
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: "Arial", sans-serif;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #c28618;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #20da58;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+  
+  body {
+      font-family: 'Montserrat', sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 200vh;
+  }
+  
+  header {
+      background-color: #dd8838;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+  }
+  
+  header nav ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  header nav ul li {
+      display: inline;
+      margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .image-container {
+      height: 50vh;
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .image-wrapper-panneaux {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .image-wrapper-dessin {
+      flex: 4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .dessin {
+      max-width: 40%;
+      max-height: 40%;
+      object-fit: cover;
+  }
+  
+  .panneaux {
+      max-width: 120%;
+      max-height: 120%;
+      object-fit: cover;
+  }
+  
+  .compteur {
+      height: 33.333vh;
+      width: 75%;
+      border-collapse: collapse;
+      margin: 20px 0;
+  }
+  
+  .compteur h2 {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .compteur-wrapper {
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .compteur p {
+      display: table-row;
+  }
+  
+  .compteur input {
+      width: 100%;
+      padding: 5px;
+      margin: 5px 0;
+      box-sizing: border-box;
+  }
+  
+  .compteur span {
+    display: table-cell;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.compteur label {
+    display: table-cell;
+    padding: 5px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.compteur-container {
+    display: table;
+    margin-bottom: 20px;
+}
+
+.compteur-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.menu-addictions {
+    height: 33.333vh;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-addictions {
+    height: 33.333vh;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.menu-addictions h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-addictions ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menu-addictions li {
+    padding: 10px;
+    border: 1px solid palegreen;
+    border-radius: 5px;
+}
+
+.menu-addictions a {
+    text-decoration: none;
+    color: #333;
+}
+
+.messages {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 66.666vh;
+    position: relative;
+}
+
+.messages-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.message-box,
+.astuces-box {
+    width: 50%;
+    height: 100%;
+    border: 3px solid lightgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box-title {
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid lightgreen;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+} */
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Home.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+}
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.h2-addictions {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+   
+}
+
+.button, .compteur-container input {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #c28618;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #20da58;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.image-container h1 {
+    margin: 20px;
+}
+
+.image-wrapper-dessin {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.image-wrapper-dessin img {
+    width: 60%;
+}
+
+.image-wrapper-panneaux {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.image-wrapper-panneaux img {
+    width: 60%;
+}
+
+.compteur {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.compteur p {
+    margin-bottom: 10px;
+}
+
+.compteur .value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #c28618;
+}
+
+.compteur-wrapper{
+    display: flex;
+    /* justify-content: column; */
+    /* align-items: center; */
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.item-compteur {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.compteur-container {
+    text-align: center;
+}
+
+.champs-input {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+}
+
+.date {
+    width: 50%;  /* Réduit la largeur des éléments de date et de jour */
+    display: flex;
+    justify-content: space-between;  /* Ajoute un espacement entre les éléments */
+}
+
+.champs-input-jour {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+}
+
+
+.date label, .champs-input-jour label {
+    width: 200px;  /* Augmente la largeur des labels à 200px */
+    display: inline-block;  /* Permet à l'élément label de respecter la largeur définie */
+}
+
+
+.menu-addictions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.monBouton {
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.monBoutonReset {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.menu-addictions h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-addictions ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+
+.menu-addictions li {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #c28618;
+    padding: 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+    margin: 0 10px;
+}
+
+.menu-addictions li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-addictions img {
+    width: 80%;
+    max-height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.messages {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.message-box, .astuces-box {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.messages-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-box, .astuces-box {
+    width: 45%;  /* Réduit la largeur à 45% pour laisser un peu d'espace entre les boîtes */
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #c28618;  /* Ajoute une bordure pour mieux distinguer les boîtes */
+    border-radius: 5px;  /* Ajoute un peu d'arrondissement aux coins des boîtes */
+}
+
+
+footer {
+    background-color: #c28618;
+    color: white;
+    padding:1rem;
+    text-align: center;
+}
